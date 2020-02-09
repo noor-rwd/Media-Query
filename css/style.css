@@ -1,0 +1,41 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: aqua
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+} 
+p{
+	font-size: 40px;
+}
+
+/*media query*/
+
+/*mobile device*/
+@media(min-width: 0px) and (max-width: 500px){
+	body{
+		background-color: green;
+
+	}
+
+		p{font-size: 18px;
+		color: #fff
+			}
+
+}
+/*small device*/
+@media (min-width: 501px) and (max-width: 768px){
+	body{
+		background-color: maroon;
+	}
+}
+/*medium device*/
+@media (min-width: 768.01px) and (max-width: 1200px){
+		.one{
+		background-color: maroon;
+	} 
+}
